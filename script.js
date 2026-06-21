@@ -1,5 +1,8 @@
 const byteSize = (str) => {
   // write your code here
+	function byteSize(str){
+		return new TextEncoder().encode("hello").length
+	}
 };
 
 // Do not change the code below
